@@ -6,4 +6,5 @@
   "env": {
     "KEY": "@ss-key",
     "METHOD": "@ss-method"
+   }
 }
