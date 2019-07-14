@@ -1,12 +1,9 @@
 {
   "name": "weimi-ss",
+  "version": 2,
   "public": true,
-  "type": "docker",
-  "features": {
-    "cloud": "v2"
-  },
+  "builds": [{ "src": "src/server.js", "use": "@now/node" }],
   "env": {
     "KEY": "@ss-key",
     "METHOD": "@ss-method"
-  }
 }
