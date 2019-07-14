@@ -3,6 +3,7 @@
   "version": 2,
   "public": true,
   "builds": [{ "src": "src/server.js", "use": "@now/node" }],
+  "regions": ["hnd1"],
   "env": {
     "KEY": "@ss-key",
     "METHOD": "@ss-method"
